@@ -1,7 +1,7 @@
 import { FaGlassWhiskey, FaNotesMedical, FaPalette, FaPills, FaPoo, FaUtensils } from 'react-icons/fa';
 
-import benefitOneImg from "../public/img/benefit-one.png";
-import benefitTwoImg from "../public/img/benefit-two.png";
+import benefitOneImg from "../public/img/happy-horse.png";
+import benefitTwoImg from "../public/img/farmer-horse1.png";
 
 const benefitOne = {
   title: "It's What You Crave",

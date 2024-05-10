@@ -8,7 +8,6 @@ import Video from "../components/video";
 import Benefits from "../components/benefits";
 import Footer from "../components/footer";
 import Testimonials from "../components/testimonials";
-// import Cta from "../components/cta";
 import Faq from "../components/faq";
 
 const Home = () => {
@@ -18,7 +17,7 @@ const Home = () => {
         <title>Kentucky Horse Milk - Equine Milk from Kentucky</title>
         <meta
           name="description"
-          content="Nextly is a free landing page template built with next.js & Tailwind CSS"
+          content="Kentucky Horse Milk is a delicious, ethical core component of the Kentucky Commonwealth"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -27,8 +26,8 @@ const Home = () => {
       <Hero />
       <SectionTitle
         pretitle="Horse Milk Benefits"
-        title=" Why would I drink Horse Milk?"
-        sectionId="Why">
+        title="Why would I drink Horse Milk?"
+        sectionId="why">
         Horse milk is an age-old tradition in many parts of the world - if one that is rarely talked about. Worldwide, and especially in Kentucky, horse milk drinkers enjoy it through and through in many forms.
       </SectionTitle>
       <Benefits data={benefitOne} />
@@ -37,18 +36,18 @@ const Home = () => {
       <SectionTitle
         pretitle="Don't just take it from us"
         title="Learn how to fullfil your needs"
-        sectionId="Video">
+        sectionId="video">
         Take a peek around Kentucky and see some of the great milky treasures of the Commonwealth.
       </SectionTitle>
       <Video />
       <SectionTitle
         pretitle="Testimonials"
         title="Here's what Kentuckians say about Kentucky Horse Milk"
-        sectionId="Testimonials">
+        sectionId="testimonials">
         Don't just take it from us, some random website from the Upper Bluegrass region of Kentucky. See what real Kentuckians have to say about their favorite Commonwealth traditional non-alcoholic favorite treat.
       </SectionTitle>
       <Testimonials />
-      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions" sectionId="FAQ">
+      <SectionTitle pretitle="FAQ" title="Frequently Asked Questions" sectionId="faq">
         Answer your customers possible questions here, it will increase the
         conversion rate as well as support or chat requests.
       </SectionTitle>

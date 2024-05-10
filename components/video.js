@@ -26,12 +26,15 @@ const Video = () => {
             </button>
           )}
           {playVideo && (
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/8rs3zVTYqCc?controls=0&autoplay=1"
-              title="YouTube video player"
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen></iframe>
+            // <iframe
+            //   src="https://www.youtube-nocookie.com/embed/8rs3zVTYqCc?controls=0&autoplay=1"
+            //   title="YouTube video player"
+            //   frameBorder="0"
+            //   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            //   allowfullscreen></iframe>
+            <video src="./video/ky-hm-secret-social.mp4" controls>
+              Sorry, your browser may not support this video.
+            </video>
           )}
         </div>
       </div>
