@@ -54,7 +54,7 @@ const faqdata = [
   {
     question: "How is Kentucky Horse Milk produced?",
     answer:
-      "Kentucky Horse Milk is produced on family-owned farms throughout the Bluegrass region. Our farmers use sustainable and humane practices to care for their horses and ensure the highest quality milk. The milk is then carefully processed and packaged to preserve its freshness and flavor. Oversight and compliance is handled by EMRA - the Equire Milk Regulatory Agency",
+      "Kentucky Horse Milk is produced on family-owned farms throughout the Bluegrass region. Our farmers use sustainable and humane practices to care for their horses and ensure the highest quality milk. The milk is then carefully processed and packaged to preserve its freshness and flavor. Oversight and compliance is handled by EMRA - the Equine Milk Regulatory Agency",
   },
   {
     question: "What are the health benefits of drinking Kentucky Horse Milk?",
