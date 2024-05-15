@@ -1,5 +1,5 @@
 .DS_STORE
 .env
 node_modules
-next/static/
-next/cache/
+.next/static/*
+.next/cache/*

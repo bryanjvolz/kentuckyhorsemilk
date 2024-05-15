@@ -1,7 +1,8 @@
 import Link from "next/link";
-import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import { FaBottleDroplet } from "react-icons/fa6";
+
 
 export default function Footer() {
   const navigation = [
@@ -19,13 +20,7 @@ export default function Footer() {
             <div>
               {" "}
               <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
-                <Image
-                    src="/img/bottle.svg"
-                    alt="Kentucky Horse Milk"
-                    width="32"
-                    height="32"
-                    className="w-8 fill-purple-700"
-                  />
+                  <FaBottleDroplet className="w-8 fill-purple-700 dark:fill-white"/>
                   <span>Kentucky Horse Milk</span>
               </Link>
             </div>

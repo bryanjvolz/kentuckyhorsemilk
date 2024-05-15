@@ -2,6 +2,7 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
+import { FaBottleDroplet } from "react-icons/fa6";
 
 const Navbar = () => {
   const navigation = [
@@ -34,13 +35,7 @@ const Navbar = () => {
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
-                      <Image
-                        src="/img/bottle.svg"
-                        alt="Kentucky Horse Milk"
-                        width="32"
-                        height="32"
-                        className="w-8 fill-purple-700"
-                      />
+                      <FaBottleDroplet className="w-8 fill-purple-700 dark:fill-white"/>
                     </span>
                     <span>Kentucky Horse Milk</span>
                   </span>
